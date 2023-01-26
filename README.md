@@ -1,4 +1,4 @@
-# RedgateSQLPromptFormattingStyle
+# Redgate SQL Prompt Formatting Style
 This code can be used as a default style with Redgate SQL Prompt for Thinkwise projects.
 
 ## How to install Redgate SQL Prompt in Azure SQL Data Studio
