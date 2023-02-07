@@ -14,7 +14,12 @@ This code can be used as a default style with Redgate SQL Prompt for Thinkwise p
 5. Paste the code of this Repositories "thinkwise.formattingstyle" file into your created file
 6. Save the file
 
-## How to use Redgate SQL Prompt as default formatter using Shift → Alt → F
+## How to choose your active formatting style
+1. Press "CTRL → Shift → P"
+2. Search for "SQL Prompt: Change Active Formatting Style"
+3. Choose your desired formatting style
+
+## How to use Redgate SQL Prompt as default formatter using Shift → Alt → F (if this is your first formatter, this step is probably unnecessary)
 1. Right click on a document
 2. Select "Format Document With"
 3. Choose "Redgate SQL Prompt"
