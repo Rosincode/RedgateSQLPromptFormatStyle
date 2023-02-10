@@ -17,7 +17,7 @@
     }
   },
   "lists": {
-    "alignItemsAcrossClauses": true,
+    "alignItemsAcrossClauses": false,
     "alignAliases": false,
     "alignComments": true,
     "placeCommasBeforeItems": true,
@@ -50,7 +50,7 @@
       "clauseAlignment": "rightAligned",
       "clauseIndentation": 0
     },
-    "addNewLineAfterDistinctAndTopClauses": false,
+    "addNewLineAfterDistinctAndTopClauses": true,
     "collapseStatementsShorterThan": 240,
     "collapseShortSubqueries": false,
     "collapseSubqueriesShorterThan": 240,
@@ -100,14 +100,14 @@
   },
   "joinStatements": {
     "join": {
-      "keywordAlignment": "toTable",
+      "keywordAlignment": "rightAlignedToFrom",
       "indentJoinTable": false,
       "placeOnNewLine": true,
       "insertEmptyLineBetweenJoinClauses": false,
       "placeJoinTableOnNewLine": false
     },
     "on": {
-      "keywordAlignment": "rightAlignedToJoin",
+      "keywordAlignment": "rightAlignedToInner",
       "conditionAlignment": "toOnKeyword",
       "placeConditionOnNewLine": false,
       "placeOnNewLine": true
