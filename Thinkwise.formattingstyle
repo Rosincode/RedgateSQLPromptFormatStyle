@@ -43,7 +43,7 @@
     "builtInFunctions": "lowercase",
     "builtInDataTypes": "lowercase",
     "globalVariables": "lowercase",
-    "useObjectDefinitionCase": true
+    "useObjectDefinitionCase": false
   },
   "dml": {
     "clauses": {
@@ -88,7 +88,7 @@
     "indentContents": false,
     "indentName": false,
     "parenthesisStyle": "compactSimple",
-    "placeAsOnNewLine": true,
+    "placeAsOnNewLine": false,
     "placeColumnsOnNewLine": false,
     "placeNameOnNewLine": false
   },
