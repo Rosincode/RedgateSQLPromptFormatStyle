@@ -7,7 +7,7 @@
     "numberOfSpacesInTabs": 4,
     "spacesOrTabs": "spaces",
     "whiteSpaceBeforeSemiColon": "none",
-    "wrapLinesLongerThan": 240,
+    "wrapLinesLongerThan": 100,
     "wrapLongLines": true,
     "newLines": {
       "preserveExistingEmptyLinesAfterBatchSeparator": false,
@@ -32,7 +32,7 @@
   },
   "parentheses": {
     "parenthesisStyle": "compactSimple",
-    "collapseParenthesesShorterThan": 240,
+    "collapseParenthesesShorterThan": 100,
     "addSpacesAroundParentheses": true,
     "addSpacesInsideParentheses": false,
     "collapseShortParenthesisContents": false,
@@ -51,26 +51,26 @@
       "clauseIndentation": 0
     },
     "addNewLineAfterDistinctAndTopClauses": true,
-    "collapseStatementsShorterThan": 240,
+    "collapseStatementsShorterThan": 100,
     "collapseShortSubqueries": false,
-    "collapseSubqueriesShorterThan": 240,
+    "collapseSubqueriesShorterThan": 100,
     "collapseShortStatements": false,
     "placeDistinctAndTopClausesOnNewLine": false,
     "placeInsertTableOnNewLine": false
   },
   "ddl": {
-    "parenthesisStyle": "expandedToStatement",
-    "indentParenthesesContents": true,
-    "placeConstraintsOnNewLines": true,
+    "parenthesisStyle": "compactSimple",
+    "indentParenthesesContents": false,
+    "placeConstraintsOnNewLines": false,
     "placeConstraintColumnsOnNewLines": "ifLongerOrMultipleColumns",
     "collapseShortStatements": true,
-    "collapseStatementsShorterThan": 240,
+    "collapseStatementsShorterThan": 100,
     "alignDataTypesAndConstraints": true,
     "indentClauses": false,
     "placeFirstProcedureParameterOnNewLine": "never"
   },
   "controlFlow": {
-    "collapseStatementsShorterThan": 240,
+    "collapseStatementsShorterThan": 100,
     "collapseShortStatements": false,
     "indentBeginAndEndKeywords": false,
     "indentContentsOfStatements": true,
@@ -126,7 +126,7 @@
     }
   },
   "caseExpressions": {
-    "collapseCaseExpressionsShorterThan": 240,
+    "collapseCaseExpressionsShorterThan": 100,
     "alignElseToWhen": true,
     "placeElseOnNewLine": true,
     "thenAlignment": "indentedFromWhen",
